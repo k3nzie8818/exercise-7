@@ -24,21 +24,19 @@
             margin: 0 auto;
             padding: 20px;
             display: flex;
-            flex-wrap: wrap;
             gap: 20px;
         }
 
         /* Left column (Title/Credits/Ingredients) */
         .left-column {
-            flex: 1;
-            min-width: 300px;
-            max-width: 500px;
+            width: 35%;
+            max-width: 400px;
         }
 
         /* Right column (Image/Preparation) */
         .right-column {
-            flex: 2;
-            min-width: 400px;
+            width: 65%;
+            max-width: 700px;
         }
 
         /* Recipe title */
@@ -98,9 +96,6 @@
         <h2>By: Martha Rose Shulman</h2>
         <h3>Yield: 3 Servings</h3>
 
-        <!-- Recipe Image -->
-        <img src="uploadAssets/spinach_tofu_stir_fry.jpg" alt="Spinach, Tofu, and Sesame Stir-Fry" class="recipe-image">
-
         <!-- Ingredients List -->
         <h2>Ingredients</h2>
         <ul class="ingredients">
@@ -118,6 +113,9 @@
 
     <!-- Right Column -->
     <div class="right-column">
+        <!-- Recipe Image -->
+        <img src="recipe-photo-Enhanced-SR.jpg" alt="Spinach, Tofu, and Sesame Stir-Fry" class="recipe-image">
+
         <h2>Preparation</h2>
         
         <div class="preparation">
